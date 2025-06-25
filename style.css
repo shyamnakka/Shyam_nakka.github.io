@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Faster+One&family=Lobster&family=WindSong:wght@400;500&display=swap');
+body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+.starting{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lab(3.87% -0.48 0.34);
+}
+.starting-left{
+    padding-left:20px;
+}
+.logo-img{
+    height: 60px;
+}
+.starting-right{
+    padding-right: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color:white;
+
+}
+.element{
+    padding: 10px;
+    margin:4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 85vh;
+    
+    
+}
+.cont-left{
+    width: 50vw;
+    padding-left: 150px;
+    text-align: right;
+    padding-top: 100px;
+    
+
+}
+.cont-right{
+    width: 50vw;
+    height: 100px;
+    padding-left: 90px;
+    
+
+}
+
+p{
+    padding-left: 5px;
+    font-family: "Encode Sans", sans-serif;
+}
+.img{
+    padding-block-end: 150px;
+}
+.name{
+     font-family: "Lobster", sans-serif;
+}
+.services{
+    text-align: center;
+    padding: 5px;
+}
+.services-h1{
+    color: #45fa45;
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-style: italic;
+
+
+}
+.services-sub-cont{
+    display: flex;
+    flex-direction: row;   
+}
+.services-card{
+    border: 2px #83f983 solid;
+    margin: 20px;
+    padding: 20px;
+    
+}
+.srv-p{
+    padding-left: 10px;
+    font-family: "Playfair Display", serif;
+}
+.srv-h1{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(118, 177, 249);
+    
+}
+.contact{
+    text-align: center;
+}
+.social-icon-img{
+    height:50px;
+    padding: 20px;
+}
+.starting-right :hover {
+    color: white;
+}
